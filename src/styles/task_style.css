@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    display: flex;
+    justify-content: center;
+}
+.App{
+    width: 800px;
+}
+.App hr{
+    margin: 15px 0;
+    color: slateblue;
+
+}
+.App h1{
+    text-align: center;
+}
+.task{
+    display: flex;
+    padding: 15px;
+    border: 2px solid slateblue;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.task_list h1{
+    text-align: center;
+}
