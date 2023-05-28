@@ -29,3 +29,11 @@
 .task_list h1{
     text-align: center;
 }
+.completed{
+    color: dimgray;
+}
+
+.task_btns {
+    display: flex;
+    gap: 4px;
+}
